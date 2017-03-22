@@ -5,6 +5,8 @@ import java.util.LinkedList;
 import biblioteka.interfejs.BibliotekaInterfejs;
 
 public class Biblioteka implements BibliotekaInterfejs {
+		 
+	public int s;
 	
 	private LinkedList<Knjiga> knjige = new LinkedList<Knjiga>();
 
